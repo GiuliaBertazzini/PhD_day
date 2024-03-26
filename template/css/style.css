@@ -446,13 +446,13 @@ button {
 
 /* gallery section start */
 
-.gallery_section {
+.home_section {
     width: 100%;
     float: left;
     padding-bottom: 90px;
 }
 
-.gallery_taital {
+.home_taital {
     width: 100%;
     float: left;
     text-align: center;
@@ -461,14 +461,29 @@ button {
     font-weight: bold;
 }
 
-.gallery_text {
+.home_subtitle{
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 28px;
+    color: #09417D;
+    font-weight: bold;
+}
+
+.home_text {
     width: 100%;
     float: left;
     font-size: 18px;
-    text-align: center;
+    text-align: justify;
     margin: 0px;
     padding-top: 20px;
     color: #262525;
+    line-height: 2em;
+}
+
+.important-dates{
+    color: #000000;
+    list-style: square;
 }
 
 .gallery_section_2 {
