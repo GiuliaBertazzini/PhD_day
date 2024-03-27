@@ -1052,8 +1052,11 @@ a:hover {
 @media screen and (max-width: 566px) {
     .logo-text{
         font-size: 16px;
+        line-height: 60px;
     }
-
+    .logo img{
+        width: 60px;
+    }
     .home_taital {
         font-size: 25px;
     }
