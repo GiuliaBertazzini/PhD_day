@@ -339,7 +339,8 @@
         padding: 20px 0px;
     }
     .logo {
-        width: 50%;
+        width: 80%;
+        justify-content: left;
     }
     .navbar-toggler {
         background-color: #fff;
