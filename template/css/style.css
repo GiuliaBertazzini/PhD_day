@@ -1063,5 +1063,8 @@ a:hover {
 
     .layout_padding {
         padding-top: 15px;
+        min-height: 300px !important;
     }
+
+
 }
