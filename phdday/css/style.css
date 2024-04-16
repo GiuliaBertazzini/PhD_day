@@ -445,6 +445,13 @@ button {
 
 /* about section end */
 
+.map {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    margin: 2% auto 0 auto;
+}
+
 /* gallery section start */
 
 .home_section {
