@@ -495,10 +495,9 @@ button {
 }
 
 .gallery_section_2 {
-    width: 100%;
-    float: left;
+    width: 80%;
     padding-bottom: 30px;
-
+    margin: 0 auto;
 }
 
 .image {
@@ -507,13 +506,14 @@ button {
     height: auto;
 }
 
-img.image {
-    min-height: 300px;
-}
+
+
 
 .container_main {
     position: relative;
     padding-top: 30px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .overlay {
@@ -1070,7 +1070,12 @@ a:hover {
 
     .layout_padding {
         padding-top: 15px;
-        min-height: 300px !important;
+    }
+
+    .gallery_section_2 {
+        width: 90%;
+        padding-bottom: 0;
+        margin: 0 auto;
     }
 
 

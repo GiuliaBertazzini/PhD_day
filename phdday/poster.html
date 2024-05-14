@@ -40,9 +40,9 @@
       <link rel="stylesheet" href="css/owl.carousel.css">
       <link rel="stylesheet" href="css/vegas.min.css">
       <link rel="stylesheet" href="css/style_2.css">
-
+      <script src="js/load_posters.js"></script>
    </head>
-   <body>
+   <body onload="load_poster()">
    <!--header section start -->
    <div class="header_section">
       <div class="container-fluid">
@@ -78,98 +78,48 @@
    </div>
    <!--header section end -->
 
-   <!-- Temporary section to delete as soon as the posters will be available-->
-   <div class="home_section layout_padding" style="min-height: 500px;">
-      <div class="container">
-         <div class="row">
-            <div class="col-sm-12">
-
-               <h3 class="home_taital ">Poster PhD Day 2024</h3>
-               <p class="home_text" style="text-align: center;">
-
-                  <i>Posters of the PhD Day 2024 will appear in this page.</i>
-
-               </p> </div>
-
-         </div>
-      </div>
-   </div>
-
 
    <!-- gallery section start -->
-   <!--
+
    <div class="home_section layout_padding" style="padding-bottom: 0;">
       <div class="container">
          <div class="row">
             <div class="col-sm-12">
                <h3 class="home_taital">Poster PhD Day 2024</h3>
-
+               <p class="home_text" style="text-align: center; font-size:20px;">
+                  Vote your favourite posters with this <a href="https://docs.google.com/forms/d/e/1FAIpQLSdjjx4Q8utVyfQl9xYl7RaRBLe4zDLhZMGGwO3Cbv4no6ZcHA/viewform?usp=sharing"><b style="color: #7B0300;">form.</b></b></a> <br><br>
+               </p>
             </div>
          </div>
 
-         <div class="">
-            <div class="gallery_section_2">
-               <div class="row">
-                  <div class="col-md-6">
-                     <div class="container_main">
-                        <h1 class="poster_title big_title">Poster title</h1>
-                        <h3 class="poster_title">Author</h3>
-                        <h3 class="poster_title">Advisors</h3>
-                        <h3 class="poster_title" style="padding-bottom: 15px;">PhD program in </h3>
 
-                        <a href="images/img-1.png"><img src="images/img-1.png" alt="Avatar" class="image"></a>
-
-                        <div class="vote_btn"><a href="#">Vote this poster</a></div>
-
-                     </div>
-                  </div>
-                  <div class="col-md-6">
-                     <div class="container_main">
-                        <h1 class="poster_title big_title">Poster title</h1>
-                        <h3 class="poster_title">Author</h3>
-                        <h3 class="poster_title">Advisors</h3>
-                        <h3 class="poster_title" style="padding-bottom: 15px;">PhD program in </h3>
-
-                        <a href="images/img-2.png"><img src="images/img-2.png" alt="Avatar" class="image"></a>
-
-                        <div class="vote_btn"><a href="#">Vote this poster</a></div>
-
-                     </div>
-                  </div>
-
-                  <div class="col-md-6">
-                     <div class="container_main">
-                        <h1 class="poster_title big_title">Poster title</h1>
-                        <h3 class="poster_title">Author</h3>
-                        <h3 class="poster_title">Advisors</h3>
-                        <h3 class="poster_title" style="padding-bottom: 15px;">PhD program in </h3>
-
-                        <a href="images/img-3.png"><img src="images/img-3.png" alt="Avatar" class="image"></a>
-
-                        <div class="vote_btn"><a href="#">Vote this poster</a></div>
-
-                     </div>
-                  </div>
-
-                  <div class="col-md-6">
-                     <div class="container_main">
-                        <h1 class="poster_title big_title">Poster title</h1>
-                        <h3 class="poster_title">Author</h3>
-                        <h3 class="poster_title">Advisors</h3>
-                        <h3 class="poster_title" style="padding-bottom: 15px;">PhD program in </h3>
-
-                        <a href="images/img-1.png"><img src="images/img-1.png" alt="Avatar" class="image"></a>
-
-                        <div class="vote_btn"><a href="#">Vote this poster</a></div>
-
-                     </div>
-                  </div>
-
-               </div>
-            </div>
       </div>
    </div>
-   -->
+      </div>
+   <div class="">
+      <div class="gallery_section_2">
+         <h3 class="home_taital" style="font-size: 30px; margin-top: 2%;">Department of International Civil, Constructional and Environmental Engineering (DICEA)</h3>
+         <div class="row" id="posters_container_DICEA" style="border-bottom: 2px solid black; padding-bottom: 8%;">
+
+         </div>
+         <h3 class="home_taital" style="font-size: 30px; margin-top: 2%; ">Department of Industrial Engineering (DIEF)</h3>
+         <div class="row" id="posters_container_DIEF" style="border-bottom: 2px solid black; padding-bottom: 8%;">
+
+         </div>
+         <h3 class="home_taital" style="font-size: 30px; margin-top: 2%;">Department of Information Engineering (DINFO)</h3>
+         <div class="row" id="posters_container_DINFO" style="border-bottom: 2px solid black; padding-bottom: 8%;">
+      </div>
+         <h3 class="home_taital" style="font-size: 30px; margin-top: 2%;">PhD Program in Smart Computing (DINFO)</h3>
+         <div class="row" id="posters_container_DINFO_SMART_COMPUTING">
+         </div>
+
+
+
+      </div>
+   </div>
+
+   </div>
+
    <!-- gallery section end -->
       <!-- footer section start -->
       <div class="footer_section layout_padding">
@@ -247,6 +197,7 @@
       <script src="js/smoothscroll.js"></script>
       <script src="js/wow.min.js"></script>
       <script src="js/custom_2.js"></script>
+
 
    </body>
 </html>
